@@ -10,6 +10,16 @@ namespace EjercicioHerencia
     {
         static void Main(string[] args)
         {
+          
+          
+           Console.Write("Ingrese el numero para desarrollar las operaciones:");
+           double lado = Convert.ToDouble(Console.ReadLine());
+           
+            //Instanciando y enviando parametro
+            Calculo calculo = new Calculo(lado);
+            calculo.Imprimir();
+
+
 
 
         }
