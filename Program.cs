@@ -17,6 +17,7 @@ namespace EjercicioHerencia
            
             //Instanciando y enviando parametro
             Calculo calculo = new Calculo(lado);
+            //llamando al metodo imprimir
             calculo.Imprimir();
 
 
